@@ -1,14 +1,17 @@
 <resources>
-    <string name="app_name">YAMBA</string>
+    <string name="app_name">YAMBA-GR-08</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Opciones</string>
     <string name= "status_button_tweet" >Tweet</string>
-    <string name= "status_text_hint" >What\'s happening?</string>
+    <string name= "status_text_hint" >Escriba tu mensaje</string>
     <string name= "tweet" >Tweet</string>
-    <string name= "username" >User name</string>
-     <string name= "username_summary" >What\'s your user name?</string>
-    <string name= "password" >Password</string>
-    <string name= "password_summary" >How do you log in?</string>
-    <string name= "status_update" >Status Update</string>
+    <string name= "username" >Nombre Usuario</string>
+     <string name= "username_summary" >Como es tu usuario?</string>
+    <string name= "password" >Contraseña</string>
+    <string name= "password_summary" >Como inicias sesion?</string>
+    <string name= "status_update" >Actualizar estado</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
