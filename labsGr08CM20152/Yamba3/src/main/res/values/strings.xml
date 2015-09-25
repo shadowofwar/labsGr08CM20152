@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">YAMBA-GR-08</string>
+
+    <string name="action_settings">Opciones</string>
+    <string name= "status_button_tweet" >Tweet</string>
+    <string name= "status_text_hint" >Escriba tu mensaje</string>
+    <string name= "tweet" >Tweet</string>
+    <string name= "username" >Nombre Usuario</string>
+     <string name= "username_summary" >Como es tu usuario?</string>
+    <string name= "password" >Contraseña</string>
+    <string name= "password_summary" >Como inicias sesion?</string>
+    <string name= "status_update" >Actualizar estado</string>
+
+    <string name="interval">Intervalo de Sincronizacion</string>
+    <string name="interval_summary">Que tan frecuentemente debe de sincronizar?</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
