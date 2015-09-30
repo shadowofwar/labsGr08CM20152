@@ -56,6 +56,7 @@ public class StatusFragment extends Fragment {
                 PostTask postTask = new PostTask();
                 postTask.execute(status);
                 Log.d(TAG, "onClick");
+
                 mTextStatus.setText("");  //borramos texto cuando el usuario envia a la nube
             }
         });
@@ -136,6 +137,9 @@ public class StatusFragment extends Fragment {
         @Override
         protected void onPostExecute(String result) {
             progress.dismiss();
+            if (result.equalsIgnoreCase("Tweet enviado con exito")){
+                mTextStatus.setText("");  //borramos texto cuando el usuario envia a la nube
+            }
             if (getActivity() != null && result != null)
                 Toast.makeText(getActivity(), result, Toast.LENGTH_LONG).show();
         }
